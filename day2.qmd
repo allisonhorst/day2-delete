@@ -9,7 +9,7 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-## Plotting functions in ggplot2 
+## Plotting functions in ggplot2
 
 ```{r}
 fx = function(x) {3 * x ^ 2 + 4}
@@ -18,7 +18,7 @@ ggplot(data = data.frame(x = c(1, 100)), aes(x = x)) +
   geom_function(fun = fx)
 ```
 
-## Partial derivative 
+## Partial derivative
 
 ```{r}
 fxyz = expression(2 * x * y + 3 * (x ^ 2) * (z ^ 3))
@@ -41,3 +41,5 @@ ggplot() +
        title = "Palmer penguins body dimensions") + 
   theme_minimal()
 ```
+
+Something new.
